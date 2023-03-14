@@ -49,7 +49,8 @@ export default {
 .bg-section {
     background-image: url(/slider-1-bg.jpg);
     height: 600px;
-    // object-fit: cover;
+    
+    background-size: cover;
     background-repeat: no-repeat;
     // object-position: center;
 }
