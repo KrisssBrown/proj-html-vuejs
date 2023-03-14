@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-container">
+    <div class="bg-section">
         <div class="container">
             <div class="hero-container">
                 <p>CONFERENCE ON</p>
@@ -46,12 +46,12 @@ export default {
 <!-- ************************************************************************** -->
 
 <style lang="scss" scoped>
-.bg-container {
+.bg-section {
     background-image: url(/slider-1-bg.jpg);
     height: 600px;
-    object-fit: cover;
+    // object-fit: cover;
     background-repeat: no-repeat;
-    object-position: center;
+    // object-position: center;
 }
 
 .container {

@@ -67,6 +67,7 @@ export default {
 
         p{
             color: gray;
+            font-size: 10px;
         }
 
         a{
