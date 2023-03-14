@@ -9,7 +9,7 @@
                 <a href="#">{{ navItem }}</a>
             </li>
             <li>|</li>
-            <i class="fa fa-search" aria-hidden="true"></i>
+            <i class="fa-solid fa-search" aria-hidden="false"></i>
         </ul>
     </div>
 </template>
