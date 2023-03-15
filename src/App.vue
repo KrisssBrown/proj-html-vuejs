@@ -7,6 +7,7 @@
     <Speakers />
     <Program />
     <Map />
+    <Location />
   </div>
 </template>
 
@@ -20,6 +21,7 @@ import Countdown from './components/Countdown.vue';
 import Speakers from './components/Speakers.vue';
 import Program from './components/Program.vue';
 import Map from './components/Map.vue';
+import Location from './components/Location.vue';
 
   export default {
     components:{
@@ -30,6 +32,7 @@ import Map from './components/Map.vue';
       Speakers,
       Program,
       Map,
+      Location,
     }
   }
 </script>
