@@ -6,6 +6,7 @@
     <Countdown />
     <Speakers />
     <Program />
+    <Map />
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import WhyUs from './components/WhyUs.vue'
 import Countdown from './components/Countdown.vue';
 import Speakers from './components/Speakers.vue';
 import Program from './components/Program.vue';
+import Map from './components/Map.vue';
 
   export default {
     components:{
@@ -27,7 +29,7 @@ import Program from './components/Program.vue';
       Countdown,
       Speakers,
       Program,
-
+      Map,
     }
   }
 </script>

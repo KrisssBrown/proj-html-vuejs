@@ -131,6 +131,10 @@ header {
         padding-left: 15px;
         border-right: 1px solid #D52B0F;
     }
+
+    .calendar-item:hover{
+        background-color: #C72B11;
+    }
 }
 
 .program-body {
