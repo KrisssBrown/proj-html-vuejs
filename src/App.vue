@@ -5,6 +5,7 @@
     <WhyUs />
     <Countdown />
     <Speakers />
+    <Program />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import Hero from './components/Hero.vue';
 import WhyUs from './components/WhyUs.vue'
 import Countdown from './components/Countdown.vue';
 import Speakers from './components/Speakers.vue';
+import Program from './components/Program.vue';
 
   export default {
     components:{
@@ -23,7 +25,9 @@ import Speakers from './components/Speakers.vue';
       Hero,
       WhyUs,
       Countdown,
-      Speakers
+      Speakers,
+      Program,
+
     }
   }
 </script>

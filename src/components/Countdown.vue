@@ -95,9 +95,11 @@ export default {
 .input-section {
     display: flex;
     gap: 14px;
+
     .text {
-        padding: 10px 0;
+        padding: 10px 5px;
         padding-right: 120px;
+        border: 0;
     }
 
     .btn {
