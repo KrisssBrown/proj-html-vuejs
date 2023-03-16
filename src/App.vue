@@ -10,6 +10,8 @@
     <Location />
     <Recent />
     <Tickets />
+    
+    <Sponsor />
   </div>
 </template>
 
@@ -27,6 +29,8 @@ import Location from './components/Location.vue';
 import Recent from './components/Recent.vue';
 import Tickets from './components/Tickets.vue';
 
+import Sponsor from './components/Sponsor.vue';
+
   export default {
     components:{
       Header,
@@ -39,6 +43,8 @@ import Tickets from './components/Tickets.vue';
       Location,
       Recent,
       Tickets,
+
+      Sponsor,
     }
   }
 </script>

@@ -2,7 +2,7 @@
     <div class="container">
         <header>
             <h1>RECENT NEWS</h1>
-            <p class="all-news serif">Read All News</p>
+            <a href="#" class="all-news serif">Read All News</a>
         </header>
 
         <main>
