@@ -86,6 +86,7 @@ export default {
             justify-content: center;
             align-items: center;
             gap: 35px;
+            width: 100%;
         }
 
         .card-header{
@@ -109,8 +110,9 @@ export default {
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            font-size: 12px;
+            font-size: 15px;
             gap: 10px;
+            padding: 43px 27px;
             
         }
 
@@ -118,9 +120,15 @@ export default {
             text-align: center;
             color: white;
             background-color: red;
+            font-size: 11px;
+            font-weight: 800;
         }
 
-        .card-header, .card-body{
+        .card-footer:hover{
+            color: salmon;
+        }
+
+        .card-header{
             padding: 25px;
         }
 

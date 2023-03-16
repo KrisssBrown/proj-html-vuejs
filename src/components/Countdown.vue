@@ -55,6 +55,11 @@ export default {
     }
 }
 
+.subs {
+    font-size: 15px;
+    font-weight: 600;
+}
+
 .cards {
     display: flex;
     justify-content: center;
@@ -63,10 +68,7 @@ export default {
     // height: 100%;
     color: white;
 
-    .subs {
-        font-size: 15px;
-        font-weight: 600;
-    }
+
 
     .card {
         background-color: black;
