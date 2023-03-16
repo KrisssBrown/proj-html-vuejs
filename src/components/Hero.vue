@@ -23,7 +23,7 @@
                         </strong></li>
                 </ul>
 
-                <button class="register-btn">REGISTER ONLINE</button>
+                <a href="#" class="register-btn">REGISTER ONLINE</a>
             </div>
         </div>
     </div>

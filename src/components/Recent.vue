@@ -7,25 +7,28 @@
 
         <main>
             <div class="card" v-for="info in articleInfo" key="i">
-                <figure>
-                    <img :src="info.imgSrc" alt="">
-                    <!-- <span class="sticky-post">
-                        <i class="fa fa-bullhorn" aria-hidden="true"></i>
-                        STICKY POST
-                    </span> -->
-                </figure>
-
-
-                <div class="article-info">
-                    <p>{{ info.date }} / {{ info.comments }}</p>
-                    <h2>{{ info.title }}</h2>
-                </div>
-
-                <div class="article-preview">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nobis, culpa rerum ipsa,
-                        necessitatibus veritatis dignissimos quasi nemo repellat nihil magni eaque reprehenderit ipsum minus
-                        praesentium impedit! Delectus, saepe corporis?</p>
-                </div>
+                <a href="#">
+                    <figure>
+                        <img :src="info.imgSrc" alt="">
+                        <!-- <span class="sticky-post">
+                            <i class="fa fa-bullhorn" aria-hidden="true"></i>
+                            STICKY POST
+                        </span> -->
+                    </figure>
+    
+    
+                    <div class="article-info">
+                        <p>{{ info.date }} / {{ info.comments }}</p>
+                        <h2>{{ info.title }}</h2>
+                    </div>
+    
+                    <div class="article-preview">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nobis, culpa rerum ipsa,
+                            necessitatibus veritatis dignissimos quasi nemo repellat nihil magni eaque reprehenderit ipsum minus
+                            praesentium impedit! Delectus, saepe corporis?</p>
+                    </div>
+                    
+                </a>
 
                 <a class="serif" href="#">Read More</a>
             </div>
@@ -95,9 +98,12 @@ main {
 // }
 
 .card{
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
+    a{
+
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
 
     .article-info{
 

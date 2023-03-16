@@ -190,6 +190,7 @@ export default {
                 color: white;
                 border: 0;
                 align-self: flex-start;
+                cursor: pointer;
 
             }
         }

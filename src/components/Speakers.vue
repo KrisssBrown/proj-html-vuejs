@@ -6,8 +6,12 @@
                     <h1>SPEAKERS</h1>
                 </div>
                 <div class="controls">
-                    <i class="fa fa-chevron-left" aria-hidden="true"></i>
-                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    <a href="#">
+                        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </a>
                 </div>
             </div>
 

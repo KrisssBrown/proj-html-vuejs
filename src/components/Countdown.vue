@@ -25,7 +25,7 @@
             <div class="input-section">
                 <input class="text" type="text" placeholder="Please fill your email">
 
-                <button class="btn">SUBSCRIBE</button>
+                <a href="#" class="btn">SUBSCRIBE</a>
             </div>
         </div>
 
