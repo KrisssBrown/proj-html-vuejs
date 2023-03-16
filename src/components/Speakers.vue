@@ -13,7 +13,7 @@
 
             <div class="speakers">
                 <div class="speaker-el" v-for="speaker in speakers" :key="index">
-                    <img :src="speaker.imgSrc">
+                    <img class="speaker-thumb" :src="speaker.imgSrc">
                     <h4>{{ speaker.name }}</h4>
                     <p>{{ speaker.job }}</p>
                 </div>
@@ -95,6 +95,12 @@ export default {
         }
     }
 }
+
+// .speaker-thumb:hover{
+//     content: 'f099 f39e f0e1';
+//     background-color: #f62b0a;
+//     opacity: 0.65;
+// }
 
 .speakers {
     display: flex;
