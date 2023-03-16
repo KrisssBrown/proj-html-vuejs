@@ -12,6 +12,7 @@
     <Tickets />
     
     <Sponsor />
+    <Footer />
   </div>
 </template>
 
@@ -30,6 +31,7 @@ import Recent from './components/Recent.vue';
 import Tickets from './components/Tickets.vue';
 
 import Sponsor from './components/Sponsor.vue';
+import Footer from './components/Footer.vue';
 
   export default {
     components:{
@@ -45,6 +47,7 @@ import Sponsor from './components/Sponsor.vue';
       Tickets,
 
       Sponsor,
+      Footer
     }
   }
 </script>
