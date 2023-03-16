@@ -28,9 +28,9 @@
                             praesentium impedit! Delectus, saepe corporis?</p>
                     </div>
                     
+                    <a class="serif" href="#">Read More</a>
                 </a>
 
-                <a class="serif" href="#">Read More</a>
             </div>
         </main>
     </div>
