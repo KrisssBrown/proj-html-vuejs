@@ -9,6 +9,7 @@
     <Map />
     <Location />
     <Recent />
+    <Tickets />
   </div>
 </template>
 
@@ -23,7 +24,8 @@ import Speakers from './components/Speakers.vue';
 import Program from './components/Program.vue';
 import Map from './components/Map.vue';
 import Location from './components/Location.vue';
-import Recent from './components/Recent.vue'
+import Recent from './components/Recent.vue';
+import Tickets from './components/Tickets.vue';
 
   export default {
     components:{
@@ -36,6 +38,7 @@ import Recent from './components/Recent.vue'
       Map,
       Location,
       Recent,
+      Tickets,
     }
   }
 </script>

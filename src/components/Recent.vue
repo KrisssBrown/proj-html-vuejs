@@ -9,6 +9,10 @@
             <div class="card" v-for="info in articleInfo" key="i">
                 <figure>
                     <img :src="info.imgSrc" alt="">
+                    <!-- <span class="sticky-post">
+                        <i class="fa fa-bullhorn" aria-hidden="true"></i>
+                        STICKY POST
+                    </span> -->
                 </figure>
 
 
@@ -82,6 +86,14 @@ main {
     gap: 30px;
 }
 
+// main:first-child::after{
+//     content: '/f0a1 STICKY POST';
+//     font-family: "Font Awesome 5 Free";
+//     height: 10px;
+//     width: 10px;
+//     color: red;
+// }
+
 .card{
     display: flex;
     flex-direction: column;
@@ -107,6 +119,19 @@ main {
         font-size: 10px;
         color: gray;
     }
+}
+
+figure{
+    position: relative;
+    display: flex;
+}
+
+.sticky-post{
+    font-size: 8px;
+    background-color: #232323;
+    color: white;
+    padding: 5px;
+    font-weight: 700;
 }
 
 .serif{
