@@ -114,7 +114,7 @@ export default {
     display: flex;
     color: white;
     gap: 50px;
-    padding-top: 50px;
+    padding: 50px 0;
 
     li {
         flex-basis: calc(100% / 4);
