@@ -8,6 +8,7 @@
     <Program />
     <Map />
     <Location />
+    <Recent />
   </div>
 </template>
 
@@ -22,6 +23,7 @@ import Speakers from './components/Speakers.vue';
 import Program from './components/Program.vue';
 import Map from './components/Map.vue';
 import Location from './components/Location.vue';
+import Recent from './components/Recent.vue'
 
   export default {
     components:{
@@ -33,6 +35,7 @@ import Location from './components/Location.vue';
       Program,
       Map,
       Location,
+      Recent,
     }
   }
 </script>
